@@ -3,7 +3,16 @@
 From W3 Schools: https://www.w3schools.com/django/index.php
 
 ## Back-End Development using Python
-- myproject
+- Virtual Environment
+  - **myproject**
+- Django Project
+  - **djangoworld**
+  ![image](https://user-images.githubusercontent.com/54840122/205466114-32079b8c-ec40-4c0c-8b19-01fa36e2a79b.png)
+  
+ - View
+    - **members**
+  
+  ![image](https://user-images.githubusercontent.com/54840122/205466213-31c6a0b3-bcf3-43bb-86ff-fde4a69298d7.png)
 
 ## Django Framework: MVT Model
 
