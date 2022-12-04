@@ -4,15 +4,59 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 ## Django Development Process
 1. Create Virtual Environment
-2. Install Django into Virtual Environment
-3. Create Django Project
-4. Run Django Project
-5. Create Django App
-6. Create index View
-7. Add Template(s)
-8. Include Template(s) in View
-9. Modify Project Settings
-10. Migrate App(s)
+
+    `python -m venv myproject`
+
+2. Activate Virtual Environment
+
+    `myproject\Scripts\activate.bat`
+    
+3. Install Django into Virtual Environment
+
+    `python -m pip install Django`
+    
+4. Create Django Project
+
+    `django-admin startproject djangoworld`
+    
+5. Run Django Project
+
+    `python manage.py runserver`
+    
+6. Create Django App
+
+    `python manage.py startapp members`
+    
+7. Create index View
+
+    `members/views.py`
+    
+    `def index(request):`
+        
+8. Add Template(s)
+
+    `members/templates`
+    
+    `/templates/index.html`
+    
+9. Include Template(s) in View
+
+    `members/views.py`
+    
+    `from django.template import loader`
+    
+    `template = loader.get_template('index.html')`
+    
+10. Modify Project Settings
+
+    `djangoworld/settings.py`
+    
+    `members.apps.MembersConfig`
+    
+11. Migrate App(s)
+
+    `python manage.py makemigrations members`
+    
 ## Back-End Development using Python
 - Virtual Environment
   - **myproject**
@@ -20,17 +64,25 @@ From W3 Schools: https://www.w3schools.com/django/index.php
   - **djangoworld**
   ![image](https://user-images.githubusercontent.com/54840122/205466114-32079b8c-ec40-4c0c-8b19-01fa36e2a79b.png)
   
- - View
-    - **members**
+ - Views
+    - **index**
     
-    ![image](https://user-images.githubusercontent.com/54840122/205466213-31c6a0b3-bcf3-43bb-86ff-fde4a69298d7.png)
-    - Templates
-      - **myfirst.html**
+    - **add**
+    
+    - **addrecord**
+    
+ - Templates
+    - **myfirst.html**
       
       ![image](https://user-images.githubusercontent.com/54840122/205467560-d550e9e8-f53c-4e1e-8706-84d30451f6a2.png)
-      - **index.html**
+    - **index.html**
       
       ![image](https://user-images.githubusercontent.com/54840122/205512872-cdb23f6e-0fcc-4b44-827d-ed1e6dc34329.png)
+      
+    - **add.html**
+      
+      ![image](https://user-images.githubusercontent.com/54840122/205516606-f9c3c63f-2888-4820-88be-e3192d7659ab.png)
+
 
   - Model
       
