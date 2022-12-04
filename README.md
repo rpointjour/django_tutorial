@@ -2,6 +2,17 @@
 
 From W3 Schools: https://www.w3schools.com/django/index.php
 
+## Django Development Process
+1. Create Virtual Environment
+2. Install Django into Virtual Environment
+3. Create Django Project
+4. Run Django Project
+5. Create Django App
+6. Create index View
+7. Add Template(s)
+8. Include Template(s) in View
+9. Modify Project Settings
+10. Migrate App(s)
 ## Back-End Development using Python
 - Virtual Environment
   - **myproject**
@@ -11,18 +22,23 @@ From W3 Schools: https://www.w3schools.com/django/index.php
   
  - View
     - **members**
-  
-  ![image](https://user-images.githubusercontent.com/54840122/205466213-31c6a0b3-bcf3-43bb-86ff-fde4a69298d7.png)
-
+    
+    ![image](https://user-images.githubusercontent.com/54840122/205466213-31c6a0b3-bcf3-43bb-86ff-fde4a69298d7.png)
+    - Templates
+      - **myfirst.html**
+      
+      ![image](https://user-images.githubusercontent.com/54840122/205467560-d550e9e8-f53c-4e1e-8706-84d30451f6a2.png)
+ 
 ## Django Framework: MVT Model
 
 - Model
-  - (models.py)
+  - `models.py`
 - View
-  - (views.py)
+  - `views.py`
   - **Python functions that take http requests and return an http response**
 - Template
-  - /templates
+  - `/templates`
 
+- Structure
 
 ![django](https://user-images.githubusercontent.com/54840122/205463140-55d19147-3d97-43ab-ae70-6c5f8b7fb988.JPG)
