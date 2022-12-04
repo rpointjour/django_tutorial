@@ -11,8 +11,9 @@ For adding records:
     output += x["firstname"]
   return HttpResponse(output)
   """
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
+from django.urls import reverse
 from .models import Members
 
 def index(request):
@@ -22,5 +23,16 @@ def index(request):
     'mymembers': mymembers,
   }                                             # 4.) Send the object to the template by context.
   return HttpResponse(template.render(context, request))   # 5.) Render HTML from template, output response from request!
-  
- 
+
+# New view: Add
+def add(request):
+  template = loader.get_template('add.html')
+  return HttpResponse(template.render({}, request))
+
+# New view: AddRecord  
+def addrecord(request):
+  x = request.POST['first']
+  y = request.POST['last']
+  member = Members(firstname=x, lastname=y)
+  member.save()
+  return HttpResponseRedirect(reverse('index')) 
