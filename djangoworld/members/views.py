@@ -16,11 +16,11 @@ from django.template import loader
 from .models import Members
 
 def index(request):
-  mymembers = Members.objects.all().values()
-  template = loader.get_template('index.html')
-  context = {
+  mymembers = Members.objects.all().values()  # 1.) Create a mymembers object with all the values of the Members model.
+  template = loader.get_template('index.html')  # 2.) Load the index.html template.
+  context = {                                   # 3.) Create an object containing the mymember object within a context
     'mymembers': mymembers,
-  }
-  return HttpResponse(template.render(context, request))
+  }                                             # 4.) Send the object to the template by context.
+  return HttpResponse(template.render(context, request))   # 5.) Render HTML from template, output response from request!
   
  
