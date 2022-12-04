@@ -33,11 +33,13 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 - Model
   - `models.py`
+  - **Tables for databases**
 - View
   - `views.py`
   - **Python functions that take http requests and return an http response**
 - Template
   - `/templates`
+  - **Response from View (usually in HTML)**
 
 - Structure
 
