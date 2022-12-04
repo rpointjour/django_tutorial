@@ -1,8 +1,9 @@
-# Add http response for views
 # Views are python functions that take http requests and returns an http response like in HTML docs
-from django.shortcuts import render
+# Add http response for views
+# Add templates for response
 from django.http import HttpResponse
+from django.template import loader
 
-# Create your views here.
 def index(request):
-    return HttpResponse("Hello world!")
+  template = loader.get_template('myfirst.html')
+  return HttpResponse(template.render())
