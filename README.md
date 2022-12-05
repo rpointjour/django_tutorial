@@ -32,7 +32,7 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 - Users
 
 <img src="https://user-images.githubusercontent.com/54840122/205554670-f9739e19-e0a3-4235-bd76-a7bcccaf8eca.png" 
-alt="Users App" style="width:60%;height:70%;">
+alt="Users App" style="width:70%;height:80%;">
 
 ## Structure
 
