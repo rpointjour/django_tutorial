@@ -22,3 +22,14 @@ def variables(request):
 def tags(request):
     template = loader.get_template('tags.html')
     return HttpResponse(template.render())
+
+# If Else View: If Else Template
+def ifelse(request):
+    template = loader.get_template('ifElse.html')
+    context = {
+        'greeting' : 1,
+        'apple' : 'red',
+        'paper' : 'green',
+        'jeans' : 'blue',
+    }
+    return HttpResponse(template.render(context, request))
