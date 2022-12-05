@@ -77,7 +77,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
       ![image](https://user-images.githubusercontent.com/54840122/205467560-d550e9e8-f53c-4e1e-8706-84d30451f6a2.png)
     - **index.html**
       
-      ![image](https://user-images.githubusercontent.com/54840122/205512872-cdb23f6e-0fcc-4b44-827d-ed1e6dc34329.png)
+      
+      ![image](https://user-images.githubusercontent.com/54840122/205524003-264865c9-c9fd-4580-a0de-04c2134c962f.png)
+
       
     - **add.html**
       
