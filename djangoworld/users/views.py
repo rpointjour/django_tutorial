@@ -17,3 +17,8 @@ def variables(request):
         'temperature' : '25.4'
     }
     return HttpResponse(template.render(context, request))
+
+# Tags View: Tags Template
+def tags(request):
+    template = loader.get_template('tags.html')
+    return HttpResponse(template.render())
