@@ -12,6 +12,7 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 <img src="https://user-images.githubusercontent.com/54840122/205749877-e0fd721e-18e5-4603-82c0-02c35e531d77.png" alt = "Template Tags" style="width:70%;height:70%;">
 
+## Most Common Tags
 - Django If Else
 - Django For Loop
 - Django Comment
