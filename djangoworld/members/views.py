@@ -36,3 +36,28 @@ def addrecord(request):
   member = Members(firstname=x, lastname=y)
   member.save()
   return HttpResponseRedirect(reverse('index')) 
+
+# New view: Delete
+def delete(request, id):    # Function gets id, locates record by id, deletes record, redirects to index
+  member = Members.objects.get(id=id)
+  member.delete()
+  return HttpResponseRedirect(reverse('index'))
+
+# New view: Update
+def update(request, id):    # Function gets id, locates record by id, loads update, creates context, sends response
+  mymember = Members.objects.get(id=id)
+  template = loader.get_template('update.html')
+  context = {
+    'mymember': mymember,
+  }
+  return HttpResponse(template.render(context, request))
+
+# New view: UpdateRecord
+def updaterecord(request, id):    # Function  updates the record in the members table with the selected ID.
+  first = request.POST['first']
+  last = request.POST['last']
+  member = Members.objects.get(id=id)
+  member.firstname = first
+  member.lastname = last
+  member.save()
+  return HttpResponseRedirect(reverse('index'))

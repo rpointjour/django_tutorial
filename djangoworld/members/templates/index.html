@@ -8,9 +8,10 @@
 <table border="1">
 {% for x in mymembers %}
 <tr>
-<td>{{ x.id }}</td>
+<td><a href="update/{{ x.id }}">{{ x.id }}</a></td> <!--Set link for each member for update-->
 <td>{{ x.firstname }}</td>
 <td>{{ x.lastname }}</td>
+<td><a href="delete/{{ x.id }}">delete</a></td> <!--Set id as the parameter-->
 </tr>
 {% endfor %}
 </table>
