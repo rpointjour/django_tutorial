@@ -4,6 +4,16 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 ## Django Template Structure
 
+- Django Variables
+- Django Tags
+- Django If Else
+- Django For Loop
+- Django Comment
+- Django Cycle
+- Django Extends
+- Django Include
+- Django Filter
+- Django 404 Template
  
 ## Django Framework: MVT Model
 
