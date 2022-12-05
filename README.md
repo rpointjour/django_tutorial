@@ -5,6 +5,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 ## Django Template Structure
 
 - Django Variables
+
+<img src="https://user-images.githubusercontent.com/54840122/205572937-37111aff-5c06-4f9b-b4cf-0b5a78e836d5.png" alt="Variables Template" style="width:70%;height:70%;">
+
 - Django Tags
 - Django If Else
 - Django For Loop
