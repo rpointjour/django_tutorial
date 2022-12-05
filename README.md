@@ -14,6 +14,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 ## Most Common Tags
 - Django If Else
+
+<img src="https://user-images.githubusercontent.com/54840122/205763875-93bef81a-8b84-4d83-9db0-96ce97ac7e9c.png" alt="If Else Tag" style="width:60%;height:60%;">
+
 - Django For Loop
 - Django Comment
 - Django Cycle
