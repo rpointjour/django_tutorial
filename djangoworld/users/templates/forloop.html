@@ -18,17 +18,19 @@
                 <li>{{i}}</li>
                 <p>{{forloop.revcounter0}}</p>
                 {% endfor %}
+
                 {% with evil=villains %}
                 {% for e in evil %}
                 <br>
                 <!--Django Tags can also include CSS style attribute and go inside element tags-->
-                <li 
+                <li
                 {% if forloop.first %}      
                 style="background-color: cadetblue;"
                 {% endif %}
                 >{{e}}</li>
                 {% endfor %}
                 {% endwith %}
+                
                 {% for x in phones %}
                 <section class="text-center">
                     <br>
