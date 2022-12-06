@@ -24,9 +24,9 @@
             <br>
             <h2>EXAMPLE</h2>
             <!--Django If Else Template Tag Usage-->
-            {% if apple == 'purple' or jeans == 'black' %}
+            {% if mobile is devices %}
             <p class="mark">Display my condition was true!</p>
-            {% elif apple == 'red' or jeans == 'blue' %}
+            {% elif mobile is not devices %}
             <h4>Alternative condition was TRUE!</h4>
             {% else %}
             <h3>ERROR CONDITION WAS NOT TRUE!</h3>

@@ -6,4 +6,5 @@ urlpatterns = [
     path('variables/', views.variables, name='variables'),
     path('tags/', views.tags, name='tags' ),
     path('ifElse/', views.ifelse, name='ifelse'),
+    path('forloop/', views.forloop, name='forloop')
 ]

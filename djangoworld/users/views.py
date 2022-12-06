@@ -31,5 +31,28 @@ def ifelse(request):
         'apple' : 'red',
         'paper' : 'green',
         'jeans' : 'blue',
+        'mobile': ['phones', 'watches', 'tablets'],
+        'devices' : ['phones', 'watches', 'tablets'],
+    }
+    return HttpResponse(template.render(context, request))
+
+# For Loop View: For Loop Template
+def forloop(request):
+    template = loader.get_template('forloop.html')
+    context = {         # Define Python Lists and Dictionary for the loop
+        'heroes' : ['Spider-Man', 'Hulk', 'Thor', 'Wolverine', 'Blade'],
+        'villains' : ['Venom', 'Green Goblin', 'Magneto', 'Doctor Doom', 'Thanos'],
+        'phones' : [
+            {
+                'brand': 'Apple',
+                'model' : 'iPhone 13 Pro',
+                'size' : '256GB'
+            },
+            {
+                'brand': 'Samsung',
+                'model' : 'Galaxy',
+                'size' : '128GB'
+            }
+        ]
     }
     return HttpResponse(template.render(context, request))
