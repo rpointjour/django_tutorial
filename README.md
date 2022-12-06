@@ -22,6 +22,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 <img src="https://user-images.githubusercontent.com/54840122/205852350-67ae2111-2165-4680-a7a9-2d8115c49352.png" alt="For Loop Tag" style="width:70%;height:70%;">
 
 - Django Cycle
+
+<img src="https://user-images.githubusercontent.com/54840122/206019912-4eafc924-b0be-4718-9307-ffe8ef0bc130.png" alt="Cycle Tag" style="width:70%;height:70%" >
+
 - Django Extends
 - Django Include
 - Django Filter
