@@ -56,3 +56,11 @@ def forloop(request):
         ]
     }
     return HttpResponse(template.render(context, request))
+
+# Cycle View: Cycle Template
+def cycle(request):
+    template = loader.get_template('cycle.html')
+    context = {
+        'colors' : ['red', 'green', 'blue', 'yellow', 'orange', 'purple']
+    }
+    return HttpResponse(template.render(context, request))
