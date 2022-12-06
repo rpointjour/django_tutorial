@@ -22,12 +22,11 @@
                 {% with evil=villains %}
                 {% for e in evil %}
                 <br>
-                <!--Django Tags can also include CSS style attribute and go inside element tags-->
-                <li
-                {% if forloop.first %}      
-                style="background-color: cadetblue;"
+                {% if forloop.last %}
+                <li><b>{{e}}</b></li>
+                {% else %}
+                <li>{{e}}</li>
                 {% endif %}
-                >{{e}}</li>
                 {% endfor %}
                 {% endwith %}
                 
@@ -40,8 +39,12 @@
                 </section>
                 {% endfor %}
             </ol>
+            <!--Django Tags can also include CSS style attribute and go inside element tags-->
             {% comment %}
             <p>This is a Django comment for the For Loop Template.</p>
+            {% if forloop.first %}      
+            style="background-color: cadetblue;"
+            {% endif %}
             {% endcomment %}
         </main>
     </div>
