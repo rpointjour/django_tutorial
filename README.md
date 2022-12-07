@@ -30,6 +30,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 <img src="https://user-images.githubusercontent.com/54840122/206077489-157607b9-6ebb-4464-99c2-c00fb1a893a8.png" alt="Extends Tag" style="width:70%;height:70%">
 
 - Django Include
+
+<img src="https://user-images.githubusercontent.com/54840122/206083659-63996ee9-c1fa-4d98-9e3f-938c818e8998.png" alt="Include Tag" style="width:70%;height:70%;">
+
 - Django Filter
 - Django 404 Template
  
