@@ -34,6 +34,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 <img src="https://user-images.githubusercontent.com/54840122/206083659-63996ee9-c1fa-4d98-9e3f-938c818e8998.png" alt="Include Tag" style="width:70%;height:70%;">
 
 - Django Filter
+
+<img src="https://user-images.githubusercontent.com/54840122/206090855-e7be63e3-ba6a-413e-b681-7b45ee5996a6.png" alt="Filter Tag" style="width:70%;height:70%;">
+
 - Django 404 Template
  
 ## Django Framework: MVT Model
