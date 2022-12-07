@@ -64,3 +64,8 @@ def cycle(request):
         'colors' : ['red', 'green', 'blue', 'yellow', 'orange', 'purple']
     }
     return HttpResponse(template.render(context, request))
+
+# Extends View : Extends Template
+def extends(request):
+    template = loader.get_template('extends.html')
+    return HttpResponse(template.render())

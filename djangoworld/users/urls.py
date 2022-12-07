@@ -8,4 +8,5 @@ urlpatterns = [
     path('ifElse/', views.ifelse, name='ifelse'),
     path('forloop/', views.forloop, name='forloop'),
     path('cycle/', views.cycle, name='cycle'),
+    path('extends/', views.extends, name='extends'),
 ]
