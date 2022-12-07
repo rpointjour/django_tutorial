@@ -12,6 +12,10 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 
 <img src="https://user-images.githubusercontent.com/54840122/205749877-e0fd721e-18e5-4603-82c0-02c35e531d77.png" alt = "Template Tags" style="width:70%;height:70%;">
 
+- Django 404 Template
+
+<img src="https://user-images.githubusercontent.com/54840122/206095898-3885e9fe-689d-4b8c-8120-89473055a678.png" alt="404 template" style="width:70%;height:70%;">
+
 ## Most Common Tags
 - Django If Else
 
@@ -36,8 +40,6 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 - Django Filter
 
 <img src="https://user-images.githubusercontent.com/54840122/206090855-e7be63e3-ba6a-413e-b681-7b45ee5996a6.png" alt="Filter Tag" style="width:70%;height:70%;">
-
-- Django 404 Template
  
 ## Django Framework: MVT Model
 
