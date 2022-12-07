@@ -10,7 +10,6 @@
 </head>
 <body class="bg-secondary">
     <div class="container-mt-3">
-
     <header class=" mt-0 p-5 bg-danger rounded">
     <h1 class="display-1 text-center text-light">Welcome to the Users App!</h1>
     </header>
@@ -22,7 +21,9 @@
 
     <main class="mt-1 p-3 bg-primary rounded">
         <p class="text-center h3">
+            {% filter capfirst|title %}
             Here we will learn more about the Django Template Structure
+            {% endfilter %}
             <ul class="list-group list-group-flush text-center rounded">
                 <li class="list-group-item list-group-item-action list-group-item-success"><a href="variables/" class="text-dark btn">Django Variables</a></li>
                 <li class="list-group-item list-group-item-action list-group-item-success "><a href="tags/" class="text-dark btn">Django Tags</a></li>
@@ -30,7 +31,6 @@
                 <li class="list-group-item list-group-item-action list-group-item-success"><a href="forloop/" class="text-dark btn">Django For Loop</a></li>
                 <li class="list-group-item list-group-item-action list-group-item-success"><a href="cycle/" class="text-dark btn">Django Cycle</a></li>
                 <li class="list-group-item list-group-item-action list-group-item-success"><a href="extends/" class="text-dark btn">Django Extends</a></li>
-                <li class="list-group-item list-group-item-action list-group-item-success"><a href="filter/" class="text-dark btn">Django Filter</a></li>
                 <li class="list-group-item list-group-item-action list-group-item-success">Django 404 Template</li>
             </ul>
         </p>
