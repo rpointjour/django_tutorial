@@ -26,6 +26,9 @@ From W3 Schools: https://www.w3schools.com/django/index.php
 <img src="https://user-images.githubusercontent.com/54840122/206019912-4eafc924-b0be-4718-9307-ffe8ef0bc130.png" alt="Cycle Tag" style="width:70%;height:70%" >
 
 - Django Extends
+
+<img src="https://user-images.githubusercontent.com/54840122/206077489-157607b9-6ebb-4464-99c2-c00fb1a893a8.png" alt="Extends Tag" style="width:70%;height:70%">
+
 - Django Include
 - Django Filter
 - Django 404 Template
