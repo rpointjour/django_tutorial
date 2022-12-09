@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import loader
 
 # Index View: Users Template
-def index(request):
+def users(request):
     template = loader.get_template('users.html')
     return HttpResponse(template.render())
 
