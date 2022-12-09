@@ -27,6 +27,8 @@ alt="Users App" style="width:70%;height:80%;">
 
 ## Static Files
 
+- `members.css`
+
 ## Django QuerySets
 
 ## Structure
