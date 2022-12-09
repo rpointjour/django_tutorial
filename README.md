@@ -28,6 +28,8 @@ alt="Users App" style="width:70%;height:80%;">
 ## Static Files
 
 - `members.css`
+- `IMG_3046.JPG`
+- `myfile.js`
 
 ## Django QuerySets
 
