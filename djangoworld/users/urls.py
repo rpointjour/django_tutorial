@@ -9,4 +9,5 @@ urlpatterns = [
     path('forloop/', views.forloop, name='forloop'),
     path('cycle/', views.cycle, name='cycle'),
     path('extends/', views.extends, name='extends'),
+    path('usertable/', views.usertable, name='usertable'),
 ]

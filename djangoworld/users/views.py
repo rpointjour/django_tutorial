@@ -1,5 +1,21 @@
 from django.http import HttpResponse
 from django.template import loader
+from .models import Users
+
+"""
+QuerySets:
+
+RETURN DATA
+<QuerySet [<Model : Model objects>,] >> Model.objects.all()  : Query Data
+<QuerySet [<Model: Model objects>, ] >> Model.objects.all().values() : Get all data!
+
+FILTER DATA
+<QuerySet [<Model: Model objects>, ] >> Model.objects.values_list('column') : Return specific columns
+ i.e. use cut filter to remove unnecessary characters from template
+ filter() method : ,(AND) | (OR)
+ Field Lookups
+
+"""
 
 # Index View: Users Template
 def users(request):
@@ -69,3 +85,16 @@ def cycle(request):
 def extends(request):
     template = loader.get_template('extends.html')
     return HttpResponse(template.render())
+
+# User Table View: For Model
+def usertable(request):     # QuerySet : Users, objects: Users objects
+    userdata = Users.objects.all().values()     # Get records!
+    userinfo = Users.objects.values_list('username')
+
+    context = {
+        'usertable' : userdata,
+        'usernames' : userinfo
+    }
+    template = loader.get_template('usertable.html')
+    return HttpResponse(template.render(context, request))
+
