@@ -1,7 +1,9 @@
 # Django Tutorial
 
 From W3 Schools: https://www.w3schools.com/django/index.php
- 
+
+## Django Project & App Development
+
 ## Django QuerySet Structure
 
 - QuerySet
